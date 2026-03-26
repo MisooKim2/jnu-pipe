@@ -8,7 +8,6 @@ def check_spam(text: str) -> str:
     "free", "win", "winner", "prize", "click",
     "buy now", "urgent", "cash", "money", "offer", "deal",
     "bonus", "limited", "guarantee"
-
   ]
   
   hit = 0
