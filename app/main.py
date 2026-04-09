@@ -1,4 +1,6 @@
 # ./app/main.py
+# uvicorn app.main:app --reload
+
 from fastapi import FastAPI, Request, Body
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
